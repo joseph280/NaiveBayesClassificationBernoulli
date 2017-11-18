@@ -61,7 +61,6 @@ def naive_bayes_classification_bernoulli_learning(db, classes):
     print('prob HAM = '+str(prob_ham))
     print('SPAM quantities: '+str(spam))
     print('HAM quantities: '+str(ham))
-
     print('SPAM VECTOR quantities: '+str(prob_spam_vec))
     print('HAM VECTOR quantities: '+str(prob_ham_vec))
     calculate_probabilities(prob_spam_vec, prob_ham_vec, spam, ham)
